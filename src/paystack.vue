@@ -1,5 +1,5 @@
 <template>
-    <button v-if="!embed" v-text="text" class="payButton" @click="payWithPaystack"></button>
+    <button v-if="!embed" v-text="text" class="payButton" type="button" @click="payWithPaystack"></button>
     <div v-else id="paystackEmbedContainer"></div>
 </template>
 
